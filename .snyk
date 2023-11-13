@@ -1,0 +1,87 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2023-11-13T05:34:13.048Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > lodash
+    - tna > bitcoincashjs > lodash:
+        patched: '2023-11-13T05:34:13.048Z'
+        id: SNYK-JS-LODASH-567746
+        path: tna > bitcoincashjs > lodash
+    - eslint > inquirer > lodash:
+        patched: '2023-11-13T05:34:13.048Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > inquirer > lodash
+    - eslint > table > lodash:
+        patched: '2023-11-13T05:34:13.048Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > table > lodash
+    - bigjq > node-jq > travis-deploy-once > @babel/register > lodash:
+        patched: '2023-11-13T05:34:13.048Z'
+        id: SNYK-JS-LODASH-567746
+        path: bigjq > node-jq > travis-deploy-once > @babel/register > lodash
+    - bigjq > node-jq > travis-deploy-once > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2023-11-13T05:34:13.048Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bigjq > node-jq > travis-deploy-once > @babel/preset-env >
+          @babel/plugin-transform-block-scoping > lodash
+    - bigjq > node-jq > travis-deploy-once > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2023-11-13T05:34:13.048Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bigjq > node-jq > travis-deploy-once > @babel/preset-env >
+          @babel/plugin-transform-modules-umd > @babel/helper-module-transforms
+          > lodash
+    - bigjq > node-jq > travis-deploy-once > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2023-11-13T05:34:13.048Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bigjq > node-jq > travis-deploy-once > @babel/preset-env >
+          @babel/plugin-transform-parameters > @babel/helper-call-delegate >
+          @babel/traverse > lodash
+    - bigjq > node-jq > travis-deploy-once > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2023-11-13T05:34:13.048Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bigjq > node-jq > travis-deploy-once > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse > lodash
+    - bigjq > node-jq > travis-deploy-once > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-11-13T05:34:13.048Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bigjq > node-jq > travis-deploy-once > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/generator > lodash
+    - bigjq > node-jq > travis-deploy-once > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2023-11-13T05:34:13.048Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bigjq > node-jq > travis-deploy-once > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - bigjq > node-jq > travis-deploy-once > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-11-13T05:34:13.048Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          bigjq > node-jq > travis-deploy-once > @babel/preset-env >
+          @babel/plugin-transform-exponentiation-operator >
+          @babel/helper-builder-binary-assignment-operator-visitor >
+          @babel/helper-explode-assignable-expression > @babel/traverse >
+          @babel/helper-function-name > @babel/helper-get-function-arity >
+          @babel/types > lodash
+  'npm:tunnel-agent:20170305':
+    - bigjq > node-jq > bin-build > download > caw > tunnel-agent:
+        patched: '2023-11-13T05:34:13.048Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: bigjq > node-jq > bin-build > download > caw > tunnel-agent
